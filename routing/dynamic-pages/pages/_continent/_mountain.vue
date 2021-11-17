@@ -1,8 +1,10 @@
 <template>
   <div>
+    <h1>This is _mountain.vue page </h1>
     <h1>Continent: {{ continent }}</h1>
     <h2>Mountain: {{ mountain }}</h2>
     <p>Path: {{ $route.path }}</p>
+    <p>Params: {{ $route.params }}</p>
     <NuxtLink to="/">Back to Mountains</NuxtLink>
   </div>
 </template>

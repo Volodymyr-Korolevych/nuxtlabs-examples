@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h1>This is _slug.vue page </h1>
     <h1>{{ this.slug }}</h1>
     <p>Path: {{ $route.path }}</p>
   </div>

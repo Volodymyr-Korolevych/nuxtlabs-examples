@@ -8,6 +8,9 @@
         <li>
           <NuxtLink to="/rivers">Rivers</NuxtLink>
         </li>
+        <li>
+          <a @click="cl">Slug</a>
+        </li>
       </ul>
     </nav>
     <main>
@@ -16,6 +19,16 @@
     </main>
   </div>
 </template>
+<script>
+export default {
+  methods: {
+    cl() {
+      this.$router.push({ name: 'slug', params: { slug: 'RRRRRRRRRRRRr' } })
+    }
+  }
+}
+</script>
+
 
 <style>
 :root {
